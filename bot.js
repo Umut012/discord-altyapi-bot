@@ -79,9 +79,9 @@ client.on('ready', () => {
   // Oynuyor Kısmı
   
       var actvs = [
-        `${prefix}yardım ${client.guilds.cache.size} sunucuyu`,
-        `${prefix}yardım ${client.users.cache.size} Kullanıcıyı`, 
-        `${prefix}yardım`
+        `Benim İsmim Nether`,
+        `Made By UmutTuncel`, 
+        ``
     ];
     
     client.user.setActivity(actvs[Math.floor(Math.random() * (actvs.length - 1) + 1)], { type: 'LISTENING' });
